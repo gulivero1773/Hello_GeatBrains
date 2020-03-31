@@ -1,0 +1,6 @@
+<table border = 1>
+<tr><td>Age</td>Name<?td></tr>
+#for(user in users){
+<tr><td>#(user.age)</td><td>#(user.name)</td></tr>
+}
+</table>
